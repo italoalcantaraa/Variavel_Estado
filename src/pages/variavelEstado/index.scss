@@ -1,0 +1,136 @@
+.ContainerVariavelEstd{
+    padding-left: 30px;
+    h1{
+        color: rgba(72, 70, 180, 1);
+
+    }
+    .ContainerCounter{
+        p{
+            color: rgba(138, 135, 135, 1);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .contador{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            width: 10%;
+            border-radius: 7px;
+            padding: 0px 0px 20px 0px;
+            
+            p{
+                color: black;
+            }
+            h1{
+                color: black;
+                font-size: 20px;
+            }
+            button{
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                width: 30px;
+                cursor: pointer;
+            }
+        }   
+    }
+    #Linha{
+        padding: 30px 0px 20px;
+        div{
+            width: 97%;
+            height: 1px;
+            background-color:black;
+        }
+    }
+    .ContainerCalculadora{
+        #titulo{
+            color: rgba(138, 135, 135, 1);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .inserirValor{
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+
+                input{
+                    outline: none;
+                    border: 1px rgba(0, 0, 0, 0.082) solid;
+                    background-color: rgba(0, 0, 0, 0.041);
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+                p{
+                    font-weight: 600;
+                }
+
+            }
+        }
+        .operacoes{
+            color: #fff;
+            p{
+                cursor: pointer;
+                padding: 8px;
+                border-radius: 5px;
+                background-color:rgb(75, 75, 75); ;
+            }
+            p:hover{
+                background-color: rgb(34, 34, 34);
+            }
+        }
+    }
+    #Linha{
+        padding: 30px 0px 20px;
+        div{
+            width: 97%;
+            height: 1px;
+            background-color:black;
+        }
+    }
+    .ListaTarefas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        #titulo{
+            font-size: 20px;
+            color: rgba(138, 135, 135, 1);
+            font-weight: bold;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+        
+            input{
+                outline: none;
+                border: 1px rgba(0, 0, 0, 0.082) solid;
+                background-color: rgba(0, 0, 0, 0.041);
+                padding: 7px;
+                border-radius: 3px;
+                font-size: 15px;
+            }
+            p{
+                font-weight: bold;
+                font-size: 18px;
+            }
+            button{
+                padding: 7px;
+                font-weight: 500;
+                background-color: rgba(91, 91, 91, 1);
+                font-size: 16px;
+                border: none;
+                border-radius: 3px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

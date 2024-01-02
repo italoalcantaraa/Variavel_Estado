@@ -1,0 +1,56 @@
+.ContainerHome{
+    height: 100vh;
+    background-color:rgba(45, 42, 42, 1);
+    color: white;
+
+    
+    .ContainerOptions{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        background-color: white;
+        padding: 90px;
+        h1{
+            margin: 0px;
+            color: rgba(72, 70, 180, 1);
+            font-size: 29px;
+        }
+        .Options{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            height: 290px;
+            padding: 20px;
+            
+            :link{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                color: white;
+                width: 200px;
+                background-color: rgb(31, 31, 31);
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 15px;
+                margin: 10px;
+                text-decoration: none;
+            }
+            :hover:link{
+                background-color: rgb(12, 12, 12);
+                
+            }
+            
+        }
+
+    }
+    .rodape{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

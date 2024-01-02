@@ -1,0 +1,23 @@
+.ContainerContato{
+    font-weight: 600;
+    color: rgba(138, 135, 135, 1);
+    padding-left: 40px;
+    .Mensagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color: rgba(0, 188, 200, 1);
+            font-size: 40px;
+        }
+    }
+    .OpcoesContato{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 60px;
+        width: 30%;
+    }
+}

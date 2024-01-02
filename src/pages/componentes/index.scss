@@ -1,0 +1,68 @@
+.containerComponentes{
+    padding-left: 50px;
+    #titulo{
+        color: rgba(72, 70, 180, 1);
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .componente{
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgba(138, 135, 135, 1);
+        }
+        .Contadores{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 50%;
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                border-radius: 10px;
+                padding: 15px 50px;
+                border: 2px solid black;    
+                p{  
+                    color: black;
+                    margin: 0px;
+                    margin-bottom: 15px;
+                    font-weight: bold; 
+                }
+                button{
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    padding: 5px 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    #Linha{
+        padding: 40px 0px;
+        div{
+            height: 1px;
+            width: 97%;
+            background-color: black;
+        }
+    }
+    .Discord{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 20%;
+        }
+    }
+}
